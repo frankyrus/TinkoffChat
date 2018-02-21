@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C76862203DD366003392EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76861203DD366003392EE /* AppDelegate.swift */; };
+		28C76864203DD366003392EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76863203DD366003392EE /* ViewController.swift */; };
+		28C76867203DD366003392EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C76865203DD366003392EE /* Main.storyboard */; };
+		28C76869203DD366003392EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C76868203DD366003392EE /* Assets.xcassets */; };
+		28C7686C203DD366003392EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C7686A203DD366003392EE /* LaunchScreen.storyboard */; };
+		28C76877203DD367003392EE /* TinkoffChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76876203DD367003392EE /* TinkoffChatTests.swift */; };
+		28C76882203DD367003392EE /* TinkoffChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76881203DD367003392EE /* TinkoffChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C76873203DD367003392EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C76856203DD366003392EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C7685D203DD366003392EE;
+			remoteInfo = TinkoffChat;
+		};
+		28C7687E203DD367003392EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C76856203DD366003392EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C7685D203DD366003392EE;
+			remoteInfo = TinkoffChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C7685E203DD366003392EE /* TinkoffChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C76861203DD366003392EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C76863203DD366003392EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28C76866203DD366003392EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28C76868203DD366003392EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C7686B203DD366003392EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C7686D203DD366003392EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C76872203DD367003392EE /* TinkoffChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C76876203DD367003392EE /* TinkoffChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffChatTests.swift; sourceTree = "<group>"; };
+		28C76878203DD367003392EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C7687D203DD367003392EE /* TinkoffChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C76881203DD367003392EE /* TinkoffChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffChatUITests.swift; sourceTree = "<group>"; };
+		28C76883203DD367003392EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C7685B203DD366003392EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C7686F203DD367003392EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C7687A203DD367003392EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C76855203DD366003392EE = {
+			isa = PBXGroup;
+			children = (
+				28C76860203DD366003392EE /* TinkoffChat */,
+				28C76875203DD367003392EE /* TinkoffChatTests */,
+				28C76880203DD367003392EE /* TinkoffChatUITests */,
+				28C7685F203DD366003392EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C7685F203DD366003392EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C7685E203DD366003392EE /* TinkoffChat.app */,
+				28C76872203DD367003392EE /* TinkoffChatTests.xctest */,
+				28C7687D203DD367003392EE /* TinkoffChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C76860203DD366003392EE /* TinkoffChat */ = {
+			isa = PBXGroup;
+			children = (
+				28C76861203DD366003392EE /* AppDelegate.swift */,
+				28C76863203DD366003392EE /* ViewController.swift */,
+				28C76865203DD366003392EE /* Main.storyboard */,
+				28C76868203DD366003392EE /* Assets.xcassets */,
+				28C7686A203DD366003392EE /* LaunchScreen.storyboard */,
+				28C7686D203DD366003392EE /* Info.plist */,
+			);
+			path = TinkoffChat;
+			sourceTree = "<group>";
+		};
+		28C76875203DD367003392EE /* TinkoffChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C76876203DD367003392EE /* TinkoffChatTests.swift */,
+				28C76878203DD367003392EE /* Info.plist */,
+			);
+			path = TinkoffChatTests;
+			sourceTree = "<group>";
+		};
+		28C76880203DD367003392EE /* TinkoffChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C76881203DD367003392EE /* TinkoffChatUITests.swift */,
+				28C76883203DD367003392EE /* Info.plist */,
+			);
+			path = TinkoffChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C7685D203DD366003392EE /* TinkoffChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C76886203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChat" */;
+			buildPhases = (
+				28C7685A203DD366003392EE /* Sources */,
+				28C7685B203DD366003392EE /* Frameworks */,
+				28C7685C203DD366003392EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinkoffChat;
+			productName = TinkoffChat;
+			productReference = 28C7685E203DD366003392EE /* TinkoffChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C76871203DD367003392EE /* TinkoffChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C76889203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChatTests" */;
+			buildPhases = (
+				28C7686E203DD367003392EE /* Sources */,
+				28C7686F203DD367003392EE /* Frameworks */,
+				28C76870203DD367003392EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C76874203DD367003392EE /* PBXTargetDependency */,
+			);
+			name = TinkoffChatTests;
+			productName = TinkoffChatTests;
+			productReference = 28C76872203DD367003392EE /* TinkoffChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C7687C203DD367003392EE /* TinkoffChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C7688C203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChatUITests" */;
+			buildPhases = (
+				28C76879203DD367003392EE /* Sources */,
+				28C7687A203DD367003392EE /* Frameworks */,
+				28C7687B203DD367003392EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C7687F203DD367003392EE /* PBXTargetDependency */,
+			);
+			name = TinkoffChatUITests;
+			productName = TinkoffChatUITests;
+			productReference = 28C7687D203DD367003392EE /* TinkoffChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C76856203DD366003392EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tinkoff;
+				TargetAttributes = {
+					28C7685D203DD366003392EE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					28C76871203DD367003392EE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28C7685D203DD366003392EE;
+					};
+					28C7687C203DD367003392EE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28C7685D203DD366003392EE;
+					};
+				};
+			};
+			buildConfigurationList = 28C76859203DD366003392EE /* Build configuration list for PBXProject "TinkoffChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C76855203DD366003392EE;
+			productRefGroup = 28C7685F203DD366003392EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C7685D203DD366003392EE /* TinkoffChat */,
+				28C76871203DD367003392EE /* TinkoffChatTests */,
+				28C7687C203DD367003392EE /* TinkoffChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C7685C203DD366003392EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C7686C203DD366003392EE /* LaunchScreen.storyboard in Resources */,
+				28C76869203DD366003392EE /* Assets.xcassets in Resources */,
+				28C76867203DD366003392EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C76870203DD367003392EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C7687B203DD367003392EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C7685A203DD366003392EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C76864203DD366003392EE /* ViewController.swift in Sources */,
+				28C76862203DD366003392EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C7686E203DD367003392EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C76877203DD367003392EE /* TinkoffChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C76879203DD367003392EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C76882203DD367003392EE /* TinkoffChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C76874203DD367003392EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C7685D203DD366003392EE /* TinkoffChat */;
+			targetProxy = 28C76873203DD367003392EE /* PBXContainerItemProxy */;
+		};
+		28C7687F203DD367003392EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C7685D203DD366003392EE /* TinkoffChat */;
+			targetProxy = 28C7687E203DD367003392EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C76865203DD366003392EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C76866203DD366003392EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28C7686A203DD366003392EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C7686B203DD366003392EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C76884203DD367003392EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C76885203DD367003392EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C76887203DD367003392EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C76888203DD367003392EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C7688A203DD367003392EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkoffChat.app/TinkoffChat";
+			};
+			name = Debug;
+		};
+		28C7688B203DD367003392EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkoffChat.app/TinkoffChat";
+			};
+			name = Release;
+		};
+		28C7688D203DD367003392EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinkoffChat;
+			};
+			name = Debug;
+		};
+		28C7688E203DD367003392EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LV739XSK;
+				INFOPLIST_FILE = TinkoffChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkoff.TinkoffChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinkoffChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C76859203DD366003392EE /* Build configuration list for PBXProject "TinkoffChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C76884203DD367003392EE /* Debug */,
+				28C76885203DD367003392EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C76886203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C76887203DD367003392EE /* Debug */,
+				28C76888203DD367003392EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C76889203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C7688A203DD367003392EE /* Debug */,
+				28C7688B203DD367003392EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C7688C203DD367003392EE /* Build configuration list for PBXNativeTarget "TinkoffChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C7688D203DD367003392EE /* Debug */,
+				28C7688E203DD367003392EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C76856203DD366003392EE /* Project object */;
+}
