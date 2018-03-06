@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285C69B8204F234300347680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285C69B7204F234300347680 /* Main.storyboard */; };
 		28C76862203DD366003392EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76861203DD366003392EE /* AppDelegate.swift */; };
 		28C76864203DD366003392EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C76863203DD366003392EE /* ViewController.swift */; };
 		28C76869203DD366003392EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C76868203DD366003392EE /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285C69B7204F234300347680 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		28C7685E203DD366003392EE /* TinkoffChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C76861203DD366003392EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C76863203DD366003392EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				28C76861203DD366003392EE /* AppDelegate.swift */,
 				28C76863203DD366003392EE /* ViewController.swift */,
+				285C69B7204F234300347680 /* Main.storyboard */,
 				28C76868203DD366003392EE /* Assets.xcassets */,
 				28C7686A203DD366003392EE /* LaunchScreen.storyboard */,
 				28C7686D203DD366003392EE /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285C69B8204F234300347680 /* Main.storyboard in Resources */,
 				28C7686C203DD366003392EE /* LaunchScreen.storyboard in Resources */,
 				28C76869203DD366003392EE /* Assets.xcassets in Resources */,
 			);

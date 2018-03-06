@@ -14,14 +14,27 @@ class ViewController: UIViewController {
         print("ViewController action: " + functionName)
     }
     
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var editButton: UIButton!
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        print(editButton.frame) //Ошибка, кнопка еще не создана
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .purple
         funcLog(#function)
+        print(editButton.frame)
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func editAction(_ sender: Any) {
+       // let button = sender as? UIButton
+        print("-")
+    }
+    @IBAction func cameraTapAction(_ sender: Any) {
+        print("Choose image")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         funcLog(#function)
@@ -36,6 +49,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         funcLog(#function)
+        print(editButton.frame)
+        //разница в ширине после ресайза - сториборд подстоился к дисплею 8+
     }
     
     override func viewWillLayoutSubviews() {
